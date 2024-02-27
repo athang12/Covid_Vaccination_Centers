@@ -1,0 +1,8 @@
+flask
+Flask
+Gunicorn
+flask_login
+flask_mysqldb
+flask_bcrypt
+datetime
+python-dotenv

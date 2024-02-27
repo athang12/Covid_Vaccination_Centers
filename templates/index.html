@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-center">
+    <div class="mt-4">
+        <h1 class="text-4xl sm:text-6xl mb-6 font-bold font-serif text-blue-600 mt-2">
+          Admin Dashboard
+        </h1>
+      </div>
+    <div class="flex flex-col mt-12">
+        <a class="my-2" href="/add"><button class="border-2 border-blue-500 p-2 mt-4 bg-cyan-600 font-bold text-lg text-white w-56">Add Vaccination Center</button></a>
+        <a class="my-2 " href="/dosagedetails"><button class="border-2 border-blue-500 p-2 mt-4 bg-cyan-600 font-bold text-lg text-white w-56">Get Dosage Details</button></a>
+        <a class="my-2" href="/removehospitals"><button class="border-2 border-blue-500 p-2 mt-4 bg-cyan-600 font-bold text-lg text-white w-56">Remove Hospitals</button></a>
+        <a href="/logout" class=""><button class="border-2 border-black p-2 mt-8 bg-gray-600 font-bold text-lg text-white">Logout</button></a>
+      </div>
+
+</body>
+</html>
+
+
+<!-- <a href="{{ url_for('add') }}">Add Vaccination Center</a>
+<a href="{{url_for('dosagedetails')}}">GET DOSAGE DETAILS</a>
+<a href="{{url_for('removehospitals')}}">Remove Hospitals</a>
+<a href="/logout" class="btn btn-dark">Logout</a> -->
